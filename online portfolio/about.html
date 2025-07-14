@@ -1,0 +1,128 @@
+<!DOCTYPE html>
+<head>
+
+<style>
+    html {
+        scroll-behavior: smooth;
+    }
+
+    #name {
+        font-size: 48px;
+        font-family: 'Times New Roman', Times, serif;
+        color:black;
+        position: fixed;
+        margin-top: 5%;
+        margin-left: 5%;
+        background-color: white;
+        border-top: 50px solid white;
+    }
+    #stroke {
+    background-color: black;
+    height: 5px;
+            
+    }
+
+    #Contact {
+        background-color: darkslategrey;
+        color: white; 
+        border-top: 50px solid darkslategrey;
+        border-bottom: 50px solid darkslategrey;
+        padding-left: 50px;
+
+    }
+
+    .dropbtn {
+        background-color: #ffffff;
+        color: black;
+        padding: 16px;
+        font-size: 32px;
+        border: none;
+        font-family: 'Times New Roman', Times, serif;
+        margin-bottom: 5px;
+    }
+
+    .dropdown {
+        display: inline-block;
+    }
+
+    .dropdown-content {
+        display: none;
+        position: absolute;
+        background-color: #f1f1f1;
+        min-width: 160px;
+        box-shadow: 0px 8px 16px 0px rgba(0,0,0,0.2);
+        z-index: 1;
+    }
+
+    .dropdown-content a {
+        color: black;
+        padding: 12px 16px;
+        text-decoration: none;
+        display: block;
+        font-size: 32px;
+    }
+
+    div.scroll-container {
+        background-color: #333;
+        overflow: auto;
+        white-space: nowrap;
+        padding: 10px;
+    }
+
+    div.scroll-container img {
+        padding: 10px;
+    }
+
+    .dropdown-content a:hover {background-color: #ddd;}
+
+    .dropdown:hover .dropdown-content {display: block;}
+
+    .dropdown:hover .dropbtn {background-color: #ddd;}
+
+    #biography{ 
+        padding-top: 200px;
+        height: fit-content;
+        background-color: #ddd;
+        padding-left: 5%;
+        padding-right: 5%;
+        order: inherit;
+        padding-bottom: 5%;
+    }
+
+</style>
+</head>
+<body>
+    <div id="name">
+        <b><a href = "main.html#top", style="text-decoration: none; color: black;">Roxanne Portfolio</a></b> <div class="dropdown">
+            <button class="dropbtn">Media</button>
+            <div class="dropdown-content">
+              <a href="main.html#photoshop">Photoshop</a>
+              <a href="main.html#video">Video</a>
+            </div>
+          </div>
+          <a href="#Contact" class="dropbtn"  style="text-decoration:none">Contact</a>
+          <a href="about.html" class="dropbtn"  style="text-decoration:none">About</a>
+        <div id="stroke">
+        </div>    
+    </div>
+
+    <div id="biography">
+        <h1><b>Roxanne</b> <small>(She/Her)</small> </h1>
+        <p>I am a graphic designer in my early 20s. I have done freelance work for clients locally and across the internet. My experience in photoshop is in creating both standard branding and creative photo collage. If you need a logo, a flyer for an upcoming event, or something to spruce up your next project, I can help.</p>
+        <p>I also have experience in video editing. Wether you need to reach out with compelling short form content, or to draw eyes with something specialized to your project.</p>
+        <p></p>
+        <img src="mediasource/favicon.png" height="50px" width="50px"></h1> 
+        <br>
+        <h2>Previous Experience</h2>
+        <b>Highschool Diploma</b> <i>Mid-Pacific Institute (2018-2022)</i>
+        <br>
+        <b>Junior Manager</b> <i>Rabbit Rabbit Tea (2023)</i>
+    </div>
+
+    <div id="Contact"> 
+        <footer>
+            Site by Roxanne <br> 
+            Contact me at jamesdwood808@gmail
+        </footer>
+        </div>
+</body>
